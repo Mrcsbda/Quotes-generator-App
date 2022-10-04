@@ -1,0 +1,71 @@
+
+.card-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 45%;
+    border-radius: 20px;
+    padding: 3.3rem 4rem;
+    background-color: white;
+
+    p {
+      
+      font-size: 1.7rem;
+      margin: 20px 0.5rem;
+      font-family: "Poppins", sans-serif;
+
+      .text {
+        font-weight: 500;
+      }
+
+      .author {
+        font-weight: 400;
+      }
+      
+      .material-icons {
+        font-size: 3rem;
+        transform: rotate(180deg)
+      }
+    }
+
+    .buttons-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .icon-container {
+        gap: 20px;
+        width: 20%;
+        display: flex;
+
+        .material-icons {
+          font-size: 4rem;
+
+          &:hover {
+            opacity: 0.9;
+            cursor: pointer;
+          }
+        }
+      }
+
+      button {
+        border: none;
+        padding: 2% 3%;
+        color: white;
+        font-weight: 500;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+
+        &:hover {
+          opacity: 0.9;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
